@@ -1,0 +1,149 @@
+body
+{
+    background-image: url(images/wallpaper-gc90e031ce_1920.jpg);
+}
+
+h1
+{
+    color: #33ff00;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.feedback {
+    background-color: rgb(84, 115, 182);
+    color: black;
+    padding: 20px;
+    width: 660px; /* Измените ширину по вашему усмотрению */
+    margin: 0 auto; /* Центрирование по горизонтали */
+    text-align: center; /* Выравнивание текста по центру */
+  }
+  
+  .feedback h2 {
+    color: black;
+  }
+  
+  .feedback label {
+    color: black;
+  }
+  
+  .feedback input[type="text"],
+  .feedback input[type="email"],
+  .feedback textarea {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    width: 100%;
+  }
+  
+  .feedback input[type="submit"] {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+.navbar{
+    background-color: #43382f;
+    position: sticky;
+}
+
+  
+  .navbar a {
+    color: rgba(226, 198, 198, 0.815);
+    font-size: 18px;
+  }
+
+  
+  .active {
+    font-weight: bold;
+  }
+ 
+
+map{
+    height: 400px;
+    width: 100%;
+}
+
+#footer {
+  background-color: hsla(229, 39%, 25%, 0.78);
+  padding: 20px;
+  text-align: center;
+  color: #fafafa;
+  
+}
+.gradient-button{
+      text-decoration: none;
+      display: inline-block;
+      color: rgb(255, 255, 255);
+      padding: 20px 30px;
+      margin: 10px 20px;
+      border-radius: 10px;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+      background-size: 200% auto;
+      box-shadow: 0 0 20px rgba(233, 227, 227, 0.1);
+      transition: .5s;
+    }
+    .gradient-button:hover {
+      background-position: right center;
+    }
+    .navbar.fixed-top {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+      }
+    body {
+        font-family: "Poppins", sans-serif;
+    }
+    
+    .textColor {
+        color: #030F27;
+    }
+    
+    .navbarBgDark {
+        background: #030F27;
+    }
+    
+    .navbar-nav .nav-link.active {
+        color: #EDA72F;
+    }
+    
+    .nav-link:hover {
+        color: #EDA72F;
+    }
+    
+    .nav-link {
+        color: #fff;
+    }
+    
+    .getBtn {
+        color: #fff;
+    }
+    
+    .sideLine {
+        border-right: 1px solid #030F27;
+    }
+    
+    .iconHeight {
+        height: 24px;
+        width: 24px;
+    }
+    
+    @media screen and (min-width: 992px) {
+        .sideLine {
+            border-right: none;
+        }
+    
+        .iconHeight {
+            height: 46px;
+            width: 46px;
+        }
+    }
